@@ -1,6 +1,6 @@
 ﻿namespace MeuAcerto.Selecao.KataGildedRose
 {
-    public class Item
+    public sealed class Item
     {
         public string Nome { get; set; }
 
