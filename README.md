@@ -9,21 +9,21 @@ Nós temos um sistema instalado que atualiza automaticamente os preços do nosso
 
 Vamos dar uma breve introdução do nosso sistema:
 
-* Todos os itens (classe `Item`) possuem uma propriedade chamada `PrazoParaVenda` que informa o número de dias que temos para vende-lo
+* Todos os itens (classe `Item`) possuem uma propriedade chamada `PrazoValidade` que informa o número de dias que temos para vendê-lo
 * Todos os itens possuem uma propriedade chamada `Qualidade` que informa o quão valioso é o item.
-* No final do dia, nosso sistema decrementa os valores das propriedades `PrazoParaVenda` e `Qualidade` de cada um dos itens do estoque através do método `AtualizarQualidade`.
+* No final do dia, nosso sistema decrementa os valores das propriedades `PrazoValidade` e `Qualidade` de cada um dos itens do estoque através do método `AtualizarQualidade`.
 
 Bastante simples, não é? Bem, agora que as coisas ficam interessantes:
 
-* Quando o (`PrazoParaVenda`) do item tiver passado, a (`Qualidade`) do item diminui duas vezes mais rápido.
+* Quando o (`PrazoValidade`) do item tiver passado, a (`Qualidade`) do item diminui duas vezes mais rápido.
 * A (`Qualidade`) do item não pode ser negativa
-* O (`Queijo Brie envelhecido`), aumenta sua qualidade (`Qualidade`) em `1` unidade a medida que envelhece.
+* O (`Queijo Brie envelhecido`), aumenta sua qualidade (`Qualidade`) ao invés de diminuir.
 * A (`Qualidade`) de um item não pode ser maior que 50.
-* O item (`Dente do Tarrasque`), por ser um item lendário, não precisa ter um (`PrazoParaVenda`) e sua (`Qualidade`) não precisa ser diminuída.
-* O item (`Ingressos`), assim como o (`Queijo Brie envelhecido`), aumenta sua (`Qualidade`) a medida que o  (`PrazoParaVenda`) se aproxima;
-    * A (`Qualidade`) aumenta em `2` unidades quando o (`PrazoParaVenda`) é igual ou menor que `10`.
-    * A (`Qualidade`) aumenta em `3` unidades quando o (`PrazoParaVenda`) é igual ou menor que `5`.
-    * A (`Qualidade`) do item vai direto à `0` quando o (`PrazoParaVenda`) tiver passado.
+* O item (`Dente do Tarrasque`), por ser um item lendário, não precisa ter um (`PrazoValidade`) e sua (`Qualidade`) não precisa ser diminuída.
+* O item (`Ingressos`), assim como o (`Queijo Brie envelhecido`), aumenta sua (`Qualidade`) a medida que o  (`PrazoValidade`) se aproxima;
+    * A (`Qualidade`) aumenta em `2` unidades quando o (`PrazoValidade`) é igual ou menor que `10`.
+    * A (`Qualidade`) aumenta em `3` unidades quando o (`PrazoValidade`) é igual ou menor que `5`.
+    * A (`Qualidade`) do item vai direto à `0` quando o (`PrazoValidade`) tiver passado.
 
 Nós recentemente assinamos um suprimento de itens Conjurados Magicamente. Isto requer que nós atualizemos nosso sistema:
 

@@ -4,7 +4,7 @@
     {
         public string Nome { get; set; }
 
-        public int PrazoParaVenda { get; set; }
+        public int PrazoValidade { get; set; }
 
         public int Qualidade { get; set; }
     }
