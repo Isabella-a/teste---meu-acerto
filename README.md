@@ -19,7 +19,7 @@ Bastante simples, não é? Bem, agora que as coisas ficam interessantes:
 * A (`Qualidade`) do item não pode ser negativa
 * O (`Queijo Brie envelhecido`), aumenta sua qualidade (`Qualidade`) ao invés de diminuir.
 * A (`Qualidade`) de um item não pode ser maior que 50.
-* O item (`Dente do Tarrasque`), por ser um item lendário, não precisa ter um (`PrazoValidade`) e sua (`Qualidade`) não precisa ser diminuída.
+* O item (`Sulfuras, a Mão de Ragnaros`), por ser um item lendário, não precisa ter um (`PrazoValidade`) e sua (`Qualidade`) não precisa ser diminuída.
 * O item (`Ingressos`), assim como o (`Queijo Brie envelhecido`), aumenta sua (`Qualidade`) a medida que o  (`PrazoValidade`) se aproxima;
     * A (`Qualidade`) aumenta em `2` unidades quando o (`PrazoValidade`) é igual ou menor que `10`.
     * A (`Qualidade`) aumenta em `3` unidades quando o (`PrazoValidade`) é igual ou menor que `5`.
@@ -33,4 +33,4 @@ Sinta-se livre para fazer qualquer alteração no método `AtualizarQualidade` e
 
 ## Notas Finais
 
-Para esclarecer: Um item não pode ter uma (`Qualidade`) maior que `50`, entretanto o  (`Dente do Tarrasque`) por ser um item lendário vai ter uma qualidade imutável de `80`.
+Para esclarecer: Um item não pode ter uma (`Qualidade`) maior que `50`, entretanto o  (`Sulfuras, a Mão de Ragnaros`) por ser um item lendário vai ter uma qualidade imutável de `80`.

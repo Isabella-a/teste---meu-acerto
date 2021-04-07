@@ -14,11 +14,11 @@ namespace MeuAcerto.Selecao.KataGildedRose
         {
             for (var i = 0; i < Itens.Count; i++)
             {
-                if (Itens[i].Nome != "Queijo Brie Envelhecido" && Itens[i].Nome != "Ingressos para o concerto do Bardo")
+                if (Itens[i].Nome != "Queijo Brie Envelhecido" && Itens[i].Nome != "Ingressos para o concerto do TAFKAL80ETC")
                 {
                     if (Itens[i].Qualidade > 0)
                     {
-                        if (Itens[i].Nome != "Dente do Tarrasque")
+                        if (Itens[i].Nome != "Sulfuras, a Mão de Ragnaros")
                         {
                             Itens[i].Qualidade = Itens[i].Qualidade - 1;
                         }
@@ -30,7 +30,7 @@ namespace MeuAcerto.Selecao.KataGildedRose
                     {
                         Itens[i].Qualidade = Itens[i].Qualidade + 1;
 
-                        if (Itens[i].Nome == "Ingressos para o concerto do Bardo")
+                        if (Itens[i].Nome == "Ingressos para o concerto do TAFKAL80ETC")
                         {
                             if (Itens[i].PrazoValidade < 11)
                             {
@@ -51,7 +51,7 @@ namespace MeuAcerto.Selecao.KataGildedRose
                     }
                 }
 
-                if (Itens[i].Nome != "Dente do Tarrasque")
+                if (Itens[i].Nome != "Sulfuras, a Mão de Ragnaros")
                 {
                     Itens[i].PrazoValidade = Itens[i].PrazoValidade - 1;
                 }
@@ -60,11 +60,11 @@ namespace MeuAcerto.Selecao.KataGildedRose
                 {
                     if (Itens[i].Nome != "Queijo Brie Envelhecido")
                     {
-                        if (Itens[i].Nome != "Ingressos para o concerto do Bardo")
+                        if (Itens[i].Nome != "Ingressos para o concerto do TAFKAL80ETC")
                         {
                             if (Itens[i].Qualidade > 0)
                             {
-                                if (Itens[i].Nome != "Dente do Tarrasque")
+                                if (Itens[i].Nome != "Sulfuras, a Mão de Ragnaros")
                                 {
                                     Itens[i].Qualidade = Itens[i].Qualidade - 1;
                                 }

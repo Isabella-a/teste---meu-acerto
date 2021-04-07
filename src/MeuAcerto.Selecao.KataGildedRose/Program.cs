@@ -11,23 +11,23 @@ namespace MeuAcerto.Selecao.KataGildedRose
 				new Item {Nome = "Corselete +5 DEX", PrazoValidade = 10, Qualidade = 20},
 				new Item {Nome = "Queijo Brie Envelhecido", PrazoValidade = 2, Qualidade = 0},
 				new Item {Nome = "Elixir do Mangusto", PrazoValidade = 5, Qualidade = 7},
-				new Item {Nome = "Dente do Tarrasque", PrazoValidade = 0, Qualidade = 80},
-				new Item {Nome = "Dente do Tarrasque", PrazoValidade = -1, Qualidade = 80},
+				new Item {Nome = "Sulfuras, a Mão de Ragnaros", PrazoValidade = 0, Qualidade = 80},
+				new Item {Nome = "Sulfuras, a Mão de Ragnaros", PrazoValidade = -1, Qualidade = 80},
 				new Item
 				{
-					Nome = "Ingressos para o concerto do Bardo",
+					Nome = "Ingressos para o concerto do TAFKAL80ETC",
 					PrazoValidade = 15,
 					Qualidade = 20
 				},
 				new Item
 				{
-					Nome = "Ingressos para o concerto do Bardo",
+					Nome = "Ingressos para o concerto do TAFKAL80ETC",
 					PrazoValidade = 10,
 					Qualidade = 49
 				},
 				new Item
 				{
-					Nome = "Ingressos para o concerto do Bardo",
+					Nome = "Ingressos para o concerto do TAFKAL80ETC",
 					PrazoValidade = 5,
 					Qualidade = 49
 				},
